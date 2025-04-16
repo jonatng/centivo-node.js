@@ -1,0 +1,25 @@
+{
+    "info": {
+      "name": "User API Collection",
+      "_postman_id": "abcd-1234-5678-efgh",
+      "description": "Test User API endpoints",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Get User by ID",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:3000/users/:id",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "3000",
+            "path": ["users", ":id"]
+          }
+        }
+      }
+    ]
+  }
+  
