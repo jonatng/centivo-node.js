@@ -21,6 +21,7 @@ A simple REST API that fetches user details by ID — only if the user is over 2
 
 ### 1. Clone & Install
 
+```bash
 git clone https://github.com/yourusername/user-api.git
 cd user-api
 npm install
